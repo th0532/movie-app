@@ -1,7 +1,9 @@
-.movies .movie {
-    width: 45%;
-    background-color: white;
+.movies a{
+    width:45%;
     margin-bottom: 70px;
+}
+.movies .movie {
+    background-color: white;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
