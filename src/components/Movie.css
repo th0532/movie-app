@@ -1,6 +1,7 @@
 .movies a{
     width:45%;
     margin-bottom: 70px;
+    text-decoration: none;
 }
 .movies .movie {
     background-color: white;

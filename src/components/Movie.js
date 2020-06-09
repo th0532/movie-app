@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import "./Movie.css";
 
 
-function Movie({id, year, title, summary, poster, genres}){
+function Movie({id, year, title, summary, poster, bigPoster, genres, rating}){
     return (
     <Link to = {{
         pathname: `/movie/${id}`,
@@ -13,7 +13,9 @@ function Movie({id, year, title, summary, poster, genres}){
             title,
             summary,
             poster,
-            genres
+            bigPoster,
+            genres,
+            rating
         }
     }}>
         <div className="movie">
